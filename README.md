@@ -1,13 +1,13 @@
-# Object Detection Project
+# Object Detection Project With YoloV8
 
-This project focuses on object detection using the YOLO (You Only Look Once) algorithm. It includes multiple chapters and projects that demonstrate various applications of object detection, such as car counting, people counting, PPE (Personal Protective Equipment) detection, and poker hand detection.
+This project focuses on object detection using the YOLO (You Only Look Once) version 8. This is an exploration of projects into object detection. It includes multiple projects that demonstrate various applications of object detection, such as car counting, people counting, especially PPE (Personal Protective Equipment) detection, and poker hand detection.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Techniques Used](#techniques-used)
-- [Chapter 5 - Running YOLO](#chapter-5---running-yolo)
-- [Chapter 6 - YOLO with Webcam](#chapter-6---yolo-with-webcam)
+- [Basics 1 - Running YOLO](#Basics-1---running-yolo)
+- [Basics 2 - YOLO with Webcam](#Basics-2---yolo-with-webcam)
 - [Project 1 - Car Counter](#project-1---car-counter)
 - [Project 2 - People Counter](#project-2---people-counter)
 - [Project 3 - PPE Detection](#project-3---ppe-detection)
@@ -27,11 +27,11 @@ The following techniques are employed in the various projects:
 
 - Sort Algorithm: The `sort.py` script implements the SORT (Simple Online and Realtime Tracking) algorithm. It helps in tracking objects and associating detections across frames.
 
-## Chapter 5 - Running YOLO
+## Basics 1 - Running YOLO
 
 The chapter "Running YOLO" introduces the basics of running the YOLO object detection algorithm on images. It includes a Python script `Yolo-Basics.py` that demonstrates how to perform object detection on static images using YOLO.
 
-## Chapter 6 - YOLO with Webcam
+## Basics 2 - YOLO with Webcam
 
 The chapter "YOLO with Webcam" showcases real-time object detection using the YOLO algorithm with a webcam. The Python script `Yolo-Webcam.py` captures video from the webcam and applies object detection using YOLO, providing a real-time detection experience.
 
